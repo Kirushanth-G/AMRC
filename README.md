@@ -24,19 +24,26 @@ This project involves the development of an **Autonomous Mobile Robot (AMR)** ca
 ## Hardware
 
 ### Components
-- **Microcontroller**: ESP32 WROOM 32E (or similar)
+- **Microcontroller**: Arduino nano
 - **LiDAR Sensor**: For SLAM and obstacle detection
 - **Motor Driver PCB**: Custom-designed PCB to control the motors.
 - **Motors**: 12V DC motors with encoders for precise movement.
-- **Frame**: Aluminum/plastic frame for structural integrity.
+- **Frame**: Aluminum frame for structural integrity.
 - **Enclosure**: Custom 3D-printed plastic enclosure for housing the PCB and development board.
-- **Batteries**: Li-ion batteries for powering the robot.
+- **Batteries**: Li-po batteries for powering the robot.
 
 ### Motor Driver PCB
 The motor driver PCB was designed to efficiently control the robot's motors and was developed using **Altium Designer**. The design features:
 - **H-Bridge circuits** for motor control.
 - **Overcurrent protection**.
 - **PWM control** for speed adjustment.
+
+<img src="https://github.com/user-attachments/assets/1029f0f1-a838-4e6f-b4c6-f93857d70274" width="310">
+<img src="https://github.com/user-attachments/assets/d456854f-651b-4be2-a253-3858e0ebe67b" width="310">
+<img src="https://github.com/user-attachments/assets/8d30132d-e9f6-4574-a488-89727c61816c" width="310">
+
+#### soldered PCB
+<img src="https://github.com/user-attachments/assets/c953f17e-c2b0-4f89-9df9-081ca0f35582" width="500">
 
 ### Frame & Enclosure
 The robot's frame was built to support the motors, LiDAR, and other sensors. A custom-designed 3D-printed plastic enclosure houses the motor driver PCB and microcontroller, ensuring that all electronics are securely protected during operation.
