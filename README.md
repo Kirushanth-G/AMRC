@@ -38,6 +38,9 @@ The motor driver PCB was designed to efficiently control the robot's motors and 
 - **Overcurrent protection**.
 - **PWM control** for speed adjustment.
 
+### schematic
+<img width="900" alt="image" src="https://github.com/user-attachments/assets/b06a3067-8583-437c-bb97-9199be8e93b9">
+
 <img src="https://github.com/user-attachments/assets/1029f0f1-a838-4e6f-b4c6-f93857d70274" width="310">
 <img src="https://github.com/user-attachments/assets/d456854f-651b-4be2-a253-3858e0ebe67b" width="310">
 <img src="https://github.com/user-attachments/assets/8d30132d-e9f6-4574-a488-89727c61816c" width="310">
@@ -47,6 +50,11 @@ The motor driver PCB was designed to efficiently control the robot's motors and 
 
 ### Frame & Enclosure
 The robot's frame was built to support the motors, LiDAR, and other sensors. A custom-designed 3D-printed plastic enclosure houses the motor driver PCB and microcontroller, ensuring that all electronics are securely protected during operation.
+
+<img src="https://github.com/user-attachments/assets/7552c2af-a77b-4e7d-a9c1-1dbd9e63944b" width="450">
+<img src="https://github.com/user-attachments/assets/6b6fd9ca-9c5e-4ad0-824b-9319d490c0e2" width="450">
+
+![Internal_wiring](https://github.com/user-attachments/assets/732bce1a-db55-4c6d-8009-a057db04a067)
 
 ---
 
